@@ -40,4 +40,14 @@ body {
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+
+.box button:active {
+  transform: scale(0.98);
+}
+
+.box button:focus {
+  outline: none;
 }
