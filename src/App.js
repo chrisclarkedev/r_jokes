@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div class="box">
-      <h3>Random Jokes Generator</h3>
-      <p>{joke}</p>
+      <h3>Chuck Norris Jokes</h3>
+      <p dangerouslySetInnerHTML={{ __html: joke }} />
       <button onClick={generateJoke}>Get new joke</button>
     </div>
   );
